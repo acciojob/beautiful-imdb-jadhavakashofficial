@@ -1,16 +1,47 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beautiful IMDb</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 60%;
+            margin: 50px auto;
+            background: white;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+        }
+        .moviePic {
+            width: 100%;
+            height: auto;
+            opacity: 0.9;
+            border-radius: 10px;
+        }
+        .movieDetail {
+            position: relative;
+            top: 20px;
+            width: 80%;
+            margin: 0 auto;
+            text-align: center;
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #333;
+        }
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
-
+    <div class="container">
+        <img class="moviePic" src="https://via.placeholder.com/600x400" alt="Movie Poster">
+        <p class="movieDetail">A thrilling journey through the world of cinema, exploring the depths of storytelling.</p>
+    </div>
 </body>
-
 </html>
